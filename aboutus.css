@@ -1,0 +1,86 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header, footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* About Us Section */
+h1 {
+    text-align: center;
+}
+
+#team,
+#history,
+#values,
+#testimonials,
+#partnerships {
+    margin-top: 40px;
+}
+
+/* Team Section */
+.team-member {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.team-member img {
+    border-radius: 50%;
+    max-width: 100px;
+    border: 2px solid #333;
+}
+
+/* Testimonials Section */
+.testimonial {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+/* Contact Us Section */
+address {
+    margin: 20px 0;
+}
+
+/* Terms and Conditions / Privacy Policy Section */
+#terms,
+#privacy {
+    margin-top: 40px;
+}
+
+#terms p,
+#privacy p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#terms h2,
+#privacy h2 {
+    margin-top: 30px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    header, footer {
+        padding: 5px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+}

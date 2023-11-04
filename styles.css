@@ -1,0 +1,85 @@
+/* General styles */
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #d6d6d6;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Adjust alignment */
+  height: 100vh;
+  padding-top: 25vh; /* Position div 25% from the top */
+  /* background: linear-gradient(to bottom, #ffffff 25%, #ffffff 25%); Dividing background into two sections */
+}
+
+/* Top background image */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 35vh; /* 25% of viewport height */
+  background: url("./bg2.jpg") no-repeat center center;
+  background-size: cover;
+  z-index: -1; /* Send it to the back */
+}
+
+.profile-container {
+  width: 30%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+/* Rest of the styles remain the same */
+
+.profile {
+  text-align: center;
+}
+
+.user-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin: -153px auto 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+h1 {
+  color: #333;
+  margin: 10px 0;
+}
+
+.address {
+  color: #555;
+  margin: 10px 0 20px; /* Increased margin between address and bio */
+  opacity: 0.8;
+}
+
+.bio {
+  color: #333;
+  opacity: 0.8;
+  margin-bottom: 30px; /* Increased margin below bio */
+}
+
+.connect-btn {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.connect-btn:hover {
+  background-color: #2980b9;
+}
+
+.content-about {
+  padding-top: 10px;
+}

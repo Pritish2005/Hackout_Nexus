@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>User Settings</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="settings-container">
+      <h1>User Settings</h1>
+
+      <div class="accordion">
+        <a href="#" class="accordion-btn">Profile</a>
+        <div class="panel">
+          <!-- Profile details here -->
+          (To be created later)
+        </div>
+
+        <button class="accordion-btn">Notification Center</button>
+        <div class="panel">
+          <div class="accordion-content">
+            <label class="switch-container">
+              Push Notifications
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </label>
+            <label>
+              Automatic Share Location to Input Phone Number
+              <input type="text" placeholder="Enter phone number" />
+            </label>
+          </div>
+        </div>
+
+        <button class="accordion-btn">Ride Preferences</button>
+        <div class="panel">
+          <div class="accordion-content">
+            <label>
+              Car Preference
+              <select>
+                <option value="Swift Desire">Swift Desire</option>
+                <option value="Grand i10">Grand i10</option>
+                <option value="WagonR">WagonR</option>
+                <option value="Tiago">Tiago</option>
+                <option value="Santro">Santro</option>
+              </select>
+            </label>
+            <label>
+              Max Passengers
+              <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <button class="accordion-btn">Payment and Billing</button>
+        <div class="panel">
+          <div class="accordion-content">
+            <label>
+              Payment Preference
+              <select>
+                <option value="Cash">Cash</option>
+                <option value="UPI">UPI</option>
+                <option value="Net-Banking">Net-Banking</option>
+              </select>
+            </label>
+            <a href="#" class="view-transactions">View Previous Transactions</a>
+          </div>
+        </div>
+
+        <button class="accordion-btn">Language and Regional Settings</button>
+        <div class="panel">
+          <div class="accordion-content">
+            <label>
+              Language Preference
+              <select>
+                <option value="Country Name">Country Name</option>
+                <!-- Add other countries -->
+              </select>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <script src="./script.js"></script>
+    </div>
+  </body>
+</html>
