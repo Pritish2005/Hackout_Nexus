@@ -1,1 +1,15 @@
-re
+Nexus Travels is a Car pooling agency which aims to make your commuting fun by introducing you to new people and by letting you ride with your friends to your destination so that the travels are not boring anymore.
+
+Here we have created a Web App Using HTML, CSS , TailWind and JavaScript. Where the Passengers can sign up to create their accounts and then can login into their accounts using their credentials
+
+We have also used MySQL with PHP to set up the datbase of the website where it saves all the info of a particular user along with the list of all users
+
+The templetes have been inspiried from :
+https://github.com/tailwindtoolbox/Landing-Page/blob/master
+https://github.com/JunaidShamnad/SignIn-SignUp-Form/tree/main
+
+Team Members -- Team NEXUS(0114):
+-> Rujul Pritwani
+-> Pritish Mahajan
+-> Shreyaa Jalan
+-> Revnant Bhatia
