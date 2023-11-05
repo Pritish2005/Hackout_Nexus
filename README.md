@@ -9,7 +9,7 @@ https://github.com/tailwindtoolbox/Landing-Page/blob/master
 https://github.com/JunaidShamnad/SignIn-SignUp-Form/tree/main
 
 Team Members -- Team NEXUS(0114):
--> Rujul Pritwani
--> Pritish Mahajan
--> Shreyaa Jalan
--> Revnant Bhatia
+-> Rujul Pritwani (pritwanirujul16072005@gmail.com)
+-> Pritish Mahajan (pritishmahajan12@gmail.com)
+-> Shreyaa Jalan (shreyaajalan17@gmail.com)
+-> Revnant Bhatia (Bhatiarevant@gmail.com)
