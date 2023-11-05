@@ -1,3 +1,6 @@
+VIDEO and PPT   
+https://drive.google.com/drive/folders/1Y7ivMPCaIyElqEVuF2PgbwcRC57UFpAm?usp=drive_link
+
 Nexus Travels is a Car pooling agency which aims to make your commuting fun by introducing you to new people and by letting you ride with your friends to your destination so that the travels are not boring anymore.
 
 Here we have created a Web App Using HTML, CSS , TailWind and JavaScript. Where the Passengers can sign up to create their accounts and then can login into their accounts using their credentials
