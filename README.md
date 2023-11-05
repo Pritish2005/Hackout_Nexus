@@ -17,5 +17,3 @@ Team Members -- Team NEXUS(0114):
 -> Shreyaa Jalan (shreyaajalan17@gmail.com)
 -> Revnant Bhatia (Bhatiarevant@gmail.com)
 
-
-Google Drive containing ppt and video https://drive.google.com/drive/folders/1Y7ivMPCaIyElqEVuF2PgbwcRC57UFpAm?usp=drive_link
